@@ -1,9 +1,11 @@
 const swiper = new Swiper(".slider-wrapper", {
+  // Optional parameters
+  //   direction: 'vertical',
   loop: true,
   grabCursor: true,
   spaceBetween: 50,
 
-  // Pagination
+  // If we need pagination
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -16,22 +18,21 @@ const swiper = new Swiper(".slider-wrapper", {
     prevEl: ".swiper-button-prev",
   },
 
-  // Scrollbar
-  scrollbar: {
-    el: ".swiper-scrollbar",
-    draggable: true,
-  },
-
-  // Breakpoints for responsive design
+  //   responsive breakpoints
   breakpoints: {
     0: {
       slidesPerView: 1,
     },
-    768: {
+    800: {
       slidesPerView: 2,
     },
     1024: {
-      slidesPerView: 3,
+      slidesPerView: 2,
     },
   },
+
+  //   // And if we need scrollbar
+  //   scrollbar: {
+  //     el: '.swiper-scrollbar',
+  //   },
 });

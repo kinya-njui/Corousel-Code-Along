@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Linking Google f  onts for icons -->
+    <!-- Linking Google fonts for icons -->
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,500,0,0"
@@ -18,19 +18,18 @@
   </head>
   <body>
     <div class="container swiper">
-      <div class="card-wrapper">
-        <ul class="card-list">
+      <div class="slider-wrapper">
+        <ul class="card-list swiper-wrapper">
           <li class="card-item swiper-slide">
             <a href="#" class="card-link">
               <img
                 src="Assets/carousel-img1.jpg"
-                alt="Card Image"
+                alt="Friends"
                 class="card-image"
               />
               <p class="badge friends">Friends</p>
               <h2 class="card-title">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Voluptatem cum voluptates ex enim beatae odio?
               </h2>
               <button class="card-button material-symbols-rounded">
                 arrow_forward
@@ -41,13 +40,12 @@
             <a href="#" class="card-link">
               <img
                 src="Assets/carousel-img2.jpg"
-                alt="Card Image"
+                alt="Park"
                 class="card-image"
               />
               <p class="badge park">Park</p>
               <h2 class="card-title">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Voluptatem cum voluptates ex enim beatae odio?
               </h2>
               <button class="card-button material-symbols-rounded">
                 arrow_forward
@@ -58,13 +56,12 @@
             <a href="#" class="card-link">
               <img
                 src="Assets/carousel-img3.jpg"
-                alt="Card Image"
+                alt="Basketballer"
                 class="card-image"
               />
               <p class="badge basketballer">Basketballer</p>
               <h2 class="card-title">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Voluptatem cum voluptates ex enim beatae odio?
               </h2>
               <button class="card-button material-symbols-rounded">
                 arrow_forward
@@ -75,13 +72,12 @@
             <a href="#" class="card-link">
               <img
                 src="Assets/carousel-img4.jpg"
-                alt="Card Image"
+                alt="Tourists"
                 class="card-image"
               />
               <p class="badge tourists">Tourists</p>
               <h2 class="card-title">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Voluptatem cum voluptates ex enim beatae odio?
               </h2>
               <button class="card-button material-symbols-rounded">
                 arrow_forward
@@ -92,13 +88,12 @@
             <a href="#" class="card-link">
               <img
                 src="Assets/carousel-img5.jpg"
-                alt="Card Image"
+                alt="Beach"
                 class="card-image"
               />
               <p class="badge beach">Beach</p>
               <h2 class="card-title">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Voluptatem cum voluptates ex enim beatae odio?
               </h2>
               <button class="card-button material-symbols-rounded">
                 arrow_forward
@@ -109,13 +104,12 @@
             <a href="#" class="card-link">
               <img
                 src="Assets/carousel-img6.jpg"
-                alt="Card Image"
+                alt="Cinque"
                 class="card-image"
               />
               <p class="badge cinque">Cinque</p>
               <h2 class="card-title">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Voluptatem cum voluptates ex enim beatae odio?
               </h2>
               <button class="card-button material-symbols-rounded">
                 arrow_forward
@@ -124,9 +118,15 @@
           </li>
         </ul>
 
+        <!-- Swiper pagination -->
         <div class="swiper-pagination"></div>
-        <div class="swiper-slide-button swiper-button-prev"></div>
-        <div class="swiper-slide-button swiper-button-next"></div>
+
+        <!-- Swiper navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- Optional Swiper scrollbar -->
+        <div class="swiper-scrollbar"></div>
       </div>
     </div>
     <!-- Linking SwiperJS script -->
